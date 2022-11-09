@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Examples">
+    
+    <test name="Selenium">
+        <packages>
+            <package name="selenium.specs"></package>
+        </packages>
+    </test>
+
+    <!--<test name="Parameters">
+        <parameter name="int1" value="10"></parameter>
+        <parameter name="int2" value="5"></parameter>
+        <classes>
+            <class name="testng.dataprovider.ParametersExample"></class>
+        </classes>
+    </test>-->
+
+
+    <!--<test name="group Execution">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+                <include name="regression"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="testng.attributestest"></package>
+        </packages>
+    </test>-->
+
+</suite>
